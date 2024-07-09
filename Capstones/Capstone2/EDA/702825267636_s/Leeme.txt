@@ -1,0 +1,11 @@
+	Conjunto de datos  vectoriales esc. 1:1 000 000
+
+Este conjunto de datos vectoriales  se encuentra en formato shape.
+
+Los archivos SHAPE son archivos vectoriales, compuestos por entidades de tipo  punto, línea  y área.
+Un archivo Shape se compone a su vez  de  tres archivos con extensión .SHX .SHP y .DBF en los cuales
+se almacena  información geométrica y  alfanumérica.
+
+Estos archivos pueden visualizarse con paquetes comerciales que manejen información vectorial para
+sistemas de información geográfica. De igual manera existen  programas gratuitos que permiten la
+visualización de éstos archivos tales como ArcExplorer y TatukGIS Viewer, entre otros.

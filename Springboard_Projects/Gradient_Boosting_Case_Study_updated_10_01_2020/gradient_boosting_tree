@@ -1,0 +1,17 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label=<Embarked_C &le; 0.822<br/>friedman_mse = 0.241<br/>samples = 534<br/>value = 0.0>, fillcolor="#f4c9aa"] ;
+1 [label=<Sex_male &le; -0.283<br/>friedman_mse = 0.231<br/>samples = 435<br/>value = -0.039>, fillcolor="#f4cbae"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label=<friedman_mse = 0.207<br/>samples = 154<br/>value = 1.269>, fillcolor="#e58139"] ;
+1 -> 2 ;
+3 [label=<friedman_mse = 0.144<br/>samples = 281<br/>value = -0.949>, fillcolor="#ffffff"] ;
+1 -> 3 ;
+4 [label=<Pclass &le; -0.885<br/>friedman_mse = 0.244<br/>samples = 99<br/>value = 0.173>, fillcolor="#f2bf9b"] ;
+0 -> 4 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+5 [label=<friedman_mse = 0.218<br/>samples = 56<br/>value = 1.147>, fillcolor="#e68844"] ;
+4 -> 5 ;
+6 [label=<friedman_mse = 0.247<br/>samples = 43<br/>value = 0.163>, fillcolor="#f2c09c"] ;
+4 -> 6 ;
+}

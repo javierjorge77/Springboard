@@ -45,7 +45,6 @@ This project involved several stages, including:
 🚀 How to Run the Project
 
 	1.	Clone the Repository:
-
   git clone https://github.com/javierjorge77/Springboard/tree/main/Capstones/Capstone2
 
   2.	Install Required Libraries:
@@ -63,7 +62,7 @@ This project involved several stages, including:
 
 For any inquiries or further discussion, feel free to reach out:
 
-	•	LinkedIn: Javier Jorge Pérez Ontiveros
+	•	LinkedIn: https://www.linkedin.com/in/jjpo/
 	•	Email: javierjorge77@gmail.com
 
 📝 Acknowledgements

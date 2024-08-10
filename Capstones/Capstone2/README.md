@@ -44,18 +44,19 @@ This project involved several stages, including:
 
 🚀 How to Run the Project
 
-	1.	Clone the Repository:
-  git clone https://github.com/javierjorge77/Springboard/tree/main/Capstones/Capstone2
+Clone the Repository: 
 
-  2.	Install Required Libraries:
+	1.	git clone https://github.com/javierjorge77/Springboard/tree/main/Capstones/Capstone2
+
+Install Required Libraries:
   Ensure you have all necessary Python libraries installed:
+  
+	2.  pip install -r requirements.txt
 
-  pip install -r requirements.txt
-
-  3.	Run the Analysis:
+Run the Analysis:
   Navigate to the relevant notebook or script and execute the code:
 
-  jupyter notebook Capstone2_Final_Analysis.ipynb
+	3. jupyter notebook Capstone2_Final_Analysis.ipynb
 
 
   📧 Contact Information

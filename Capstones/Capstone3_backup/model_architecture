@@ -1,0 +1,38 @@
+digraph {
+	Input [label="Input Layer
+(300x300x3)"]
+	Conv1 [label="Conv2D
+32 filters
+(3x3)"]
+	Pool1 [label="MaxPooling2D
+(2x2)"]
+	Conv2 [label="Conv2D
+64 filters
+(3x3)"]
+	Pool2 [label="MaxPooling2D
+(2x2)"]
+	Conv3 [label="Conv2D
+128 filters
+(3x3)"]
+	Pool3 [label="MaxPooling2D
+(2x2)"]
+	Flatten [label=Flatten]
+	Dense1 [label="Dense
+128 units
+ReLU"]
+	Dropout [label="Dropout
+Rate=0.5"]
+	Output [label="Dense
+1 unit
+Sigmoid"]
+	Input -> Conv1
+	Conv1 -> Pool1
+	Pool1 -> Conv2
+	Conv2 -> Pool2
+	Pool2 -> Conv3
+	Conv3 -> Pool3
+	Pool3 -> Flatten
+	Flatten -> Dense1
+	Dense1 -> Dropout
+	Dropout -> Output
+}
